@@ -10,7 +10,7 @@ terraform {
     bucket   = "672642514000-roboshop"
     key = "vpc"
     region = "us-east-1"
-    dynamodb_table = "672642514000-roboshop-ddb-lock"
+    use_lockfile = "672642514000-roboshop-ddb-lock"
   }
 }
 
